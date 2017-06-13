@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>circle area</title>
+	<script type="text/javascript">
+		function area()
+		{
+			var radius=document.getElementById('r').value;
+			alert("area of circle having radius "+radius+" is "+3.14*radius*radius);
+			document.getElementById('r').value="";
+		}
+	</script>
+</head>
+<body>
+<b> enter radius of circle </b>
+<br>
+<input type="number" name="radius" id="r">
+<br>
+<button onclick="area()">submit</button>
+
+</body>
+</html>
